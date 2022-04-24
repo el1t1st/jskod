@@ -1,0 +1,36 @@
+{
+  "name": "nodejstemplate",
+  "version": "0.1",
+  "private": true,
+  "description": "Minimal NodeJS Template",
+  "author": "Alex DK <alexdk@plan25.org>",
+  "license": "UNLICENSED",
+  "keywords": [
+    "nodejs"
+  ],
+  "main": "server.js",
+  "scripts": {
+    "test": "npm run -s lint && node test/all.js",
+    "lint": "eslint . --fix && prettier --write \"**/*.js\" \"**/*.json\"",
+    "install": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexdk/nodejstemplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alexdk/nodejstemplate/issues"
+  },
+  "homepage": "https://github.com/alexdk/nodejstemplate",
+  "engines": {
+    "node": ">=17.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.27.0",
+    "prettier": "^2.3.0"
+  },
+  "dependencies": {
+    "pg": "^8.6.0",
+    "ws": "^7.4.6"
+  }
+}
