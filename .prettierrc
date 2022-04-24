@@ -5,6 +5,7 @@
   "semi": true,
   "bracketSpacing": true,
   "arrowParens": "avoid",
+  "printWidth": 80,
   "overrides": [
     {
       "files": ".prettierrc",

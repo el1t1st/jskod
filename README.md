@@ -1,1 +1,1 @@
-Minimal template for NodeJS with eslint and prettier configs.
+# Patterns, workflows and examples of JavaScript code.
