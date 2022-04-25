@@ -16,4 +16,15 @@ console.dir({ person });
 delete person['city'];
 console.dir({ person });
 
+// Access with a getter
+const person2 = {
+  name: 'Vladimir Putin',
+  get city() {
+    return 'Moscow';
+  },
+  set city(value) {
+    console.log('Vladimir Putin lives in Moscow');
+  },
+};
+
 // TODO: continue with course number 11
